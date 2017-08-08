@@ -1,6 +1,6 @@
-class CreateTodos < ActiveRecord::Migration[5.0]
+class CreateTasks < ActiveRecord::Migration[5.0]
   def change
-    create_table :todos do |t|
+    create_table :tasks do |t|
       t.string :task
       t.boolean :status
 
